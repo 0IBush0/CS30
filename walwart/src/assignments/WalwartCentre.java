@@ -50,7 +50,7 @@ public class WalwartCentre
          }
          else if(action.equalsIgnoreCase("P"))
          {
-            System.out.println("Enter the hours for associate OR pay period for manager: " );
+            System.out.println("Enter the hours for associate OR pay period for manager: ");
             payR = input.nextDouble();
             payEmployee(emp, payR);
          }
