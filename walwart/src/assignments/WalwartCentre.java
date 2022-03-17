@@ -37,8 +37,8 @@ public class WalwartCentre
       if(!action.equalsIgnoreCase("Q"))
       {
           System.out.println("Enter Employee number (1, 2, or 3): ");
-         empNum = input.nextInt();
-         switch(empNum)
+          empNum = input.nextInt();
+          switch(empNum)
          {
              case 1: emp = emp1;break;
              case 2: emp = emp2;break;
