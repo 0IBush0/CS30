@@ -1,13 +1,13 @@
 /*
 Program: puck.java          Last Date of this Revision: March 17, 2022
-Purpose: Circle Puck
+Purpose: Puck
 Author: Zac Qiu
 School: CHHS
 Course: Computer Programming 30
  
 */
 
-package assignments;
+package pucks;
 
 public class puck
 
@@ -84,5 +84,8 @@ public class puck
 	}
 
 /* Screen Dump
- 
+
+
+
+
  */
