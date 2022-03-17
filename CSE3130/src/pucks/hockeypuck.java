@@ -21,23 +21,19 @@ import java.util.Scanner;
 			reviewpuck pA = new reviewpuck(5.5);
 			reviewpuck yt = new reviewpuck(4.0);
 
-			//standard Review_Puck_Part_2_of_2
+			System.out.println(pA.getWeight());//print out pAWeight
+			System.out.println(pA.getDivision());//print out pADivision
+			System.out.println(pA.getRadius());//print out pARadius
 
-			System.out.println(pA.getWeight());
-			System.out.println(pA.getDivision());
-			System.out.println(pA.getRadius());
-			
-			//youth Review_Puck_Part_2_of_2
-
-			System.out.println(yt.getWeight());
-			System.out.println(yt.getDivision());
-			System.out.println(yt.getRadius());
+			System.out.println(yt.getWeight());//print out ytWeight
+			System.out.println(yt.getDivision());//print out ytDivision
+			System.out.println(yt.getRadius());//print out ytRadius
 
 			String action;
 			int w;
 			double wArg;
 			
-			if(pA.equals(yt))
+			if(pA.equals(yt))//check for equal
 			{
 				System.out.println("true");
 				
