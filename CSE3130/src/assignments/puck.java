@@ -17,7 +17,7 @@ public class puck
 		   
 		   public puck()
 		   {
-		       radius = 1;//radius equals 1
+		       radius = 1;//set radius to 1
 
 		   }
 
@@ -25,18 +25,18 @@ public class puck
 		   public puck(double r)
 
 		   {
-		       radius = r;// radius equals r
+		       radius = r;//set radius to r
 		       
 		   }
 		   public void setRadius(double newRadius)
 		   {
-		       radius = newRadius;// get new radius   
+		       radius = newRadius;//new radius   
 		       
 		   }
 		   public double area()
 		   {
 		       double circleArea;
-		       circleArea = PI * radius * radius;// PI times radius times radius
+		       circleArea = PI * radius * radius;//formula for circleArea
 
 		       return(circleArea);
 		       
@@ -49,7 +49,7 @@ public class puck
 		   public double circumference()
 		   {
 		       double circleCircumference;
-		       circleCircumference = 2 * PI * radius;// two times PI times radius
+		       circleCircumference = 2 * PI * radius;//formula for circleCircumference
 		       return(circleCircumference);
 		       
 		   }
@@ -62,7 +62,7 @@ public class puck
 		   public boolean equals(Object c)
 		    {
 			   puck testObj = (puck)c;
-		       if (testObj.getRadius() == radius)
+		       if (testObj.getRadius() == radius)//check radius
 		       {
 		           return(true);
 		           
@@ -76,7 +76,7 @@ public class puck
 		    public String toString()
 		    {
 		        String circleString;
-		        circleString = "The Circle has a Radius of " + radius;
+		        circleString = "The Circle has a Radius of " + radius;//set text
 		        
 		        return(circleString);
 		        
