@@ -74,7 +74,6 @@ public class reviewpuck extends puck
 				return false;
 				  
 	    	}
-
 	    }	
 }  
 
