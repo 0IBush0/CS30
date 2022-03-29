@@ -19,7 +19,7 @@ public class zackersEmployee
 	public zackersEmployee(String Fn, String Ln, Integer Sal)
 	{
 		firstName = Fn;
-		lastName = Ln;  
+		lastName = Ln;
 		Salary = Sal;
 		
 	}
