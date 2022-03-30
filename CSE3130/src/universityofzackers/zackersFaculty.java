@@ -12,7 +12,6 @@ package universityofzackers;
 public class zackersFaculty extends universityofZackers
 
 {
-		//initializing string used to store department, which is faculty specific 
 		private String Deptname;
 		
 		public zackersFaculty(String Fn, String Ln, Integer Sal, String D)
@@ -23,7 +22,6 @@ public class zackersFaculty extends universityofZackers
 			
 		}
 		
-		//when the faculty class is called it will return the department name 
 		public String toString()
 		{
 			return(super.toString() + " " + Deptname);
