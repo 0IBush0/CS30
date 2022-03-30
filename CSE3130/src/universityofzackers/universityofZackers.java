@@ -1,5 +1,5 @@
 /*
-Program: universityofzackers.java          Last Date of this Revision: March 29, 2022
+Program: universityofzackers.java          Last Date of this Revision: March 30, 2022
 Purpose: universityofZackers
 Author: Zac Qiu
 School: CHHS
@@ -18,21 +18,20 @@ public class universityofZackers
 
 public static universityofZackers assign() 
 		{
-		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 	
 		//asking the set of questions for the variables
-		System.out.println("Welcome to University of Zackers Employee Page, Please Enter the Following Details:");
-		System.out.println("Enter Here, Employees First Name:");
+		System.out.println("Welcome to University of Zackers Employee Page!:");
+		System.out.println("Please enter Employees First Name:");
 		String Fn = input.next();
 		
-		System.out.println("Enter Here, Employees Last Name:");
+		System.out.println("Please enter Employees Last Name::");
 		String Ln = input.next();
 		
-		System.out.println("Enter Here, Employees Salary:");
+		System.out.println("Please enter Employees Salary:");
 		int Sal = input.nextInt();
 		
-		System.out.println("Enter Here, Employee Type: Faculty or Staff:");
+		System.out.println("Please enter Employee Type: Faculty or Staff:");
 		//creates a string to store answer
 		String EmpType;
 		EmpType = input.next();
@@ -52,13 +51,13 @@ public static universityofZackers assign()
 			//May use multiple word answers
 			String Job = input.next();
 			       Job+= input.nextLine();
-			      	     
+			
 			//return specific to staff that displays all of the variables that have been inputed
 			return new zackersStaff(Fn, Ln, Sal, Job);
 			
 		}
 	
-	}	
+		}	
 		//adding main class and employees 
 		public static void main(String[] args)
 		{
@@ -69,7 +68,7 @@ public static universityofZackers assign()
 			
 			emp1 = assign();
 			emp2 = assign();
-			emp3 = assign();	
+			emp3 = assign();
 			//after all three employees have had variables assigned to them, display all variables
 			System.out.println("\nThree University Employees:");
 			System.out.println(emp1);
@@ -87,9 +86,9 @@ Zac
 Enter Here, Employees Last Name:
 Qiu
 Enter Here, Employees Salary:
-1
+20
 Enter Here, Employee Type: Faculty or Staff:
-Staff
-Enter Here, Job Title/Position:
-Janitor
+Faculty
+Enter Here, Department Name:
+Zackers Department
  */
