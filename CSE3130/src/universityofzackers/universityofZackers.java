@@ -33,6 +33,7 @@ public static universityofZackers assign()
 		
 		System.out.println("Please enter Employee Type: Faculty or Staff:");
 		//creates a string to store answer
+		
 		String EmpType;
 		EmpType = input.next();
 		
