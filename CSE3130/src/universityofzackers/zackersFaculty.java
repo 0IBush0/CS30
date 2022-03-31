@@ -12,19 +12,18 @@ package universityofzackers;
 public class zackersFaculty extends universityofZackers
 
 {
-		private String Deptname;
+		private String Dname;
 		
 		public zackersFaculty(String Fn, String Ln, Integer Sal, String D)
 		{
-			super(Fn, Ln, Sal);
-	 	
-			Deptname = D;
+			super();
+			Dname = D;
 			
 		}
 		
 		public String toString()
 		{
-			return(super.toString() + " " + Deptname);
+			return(super.toString() + " " + Dname);
 			
 		}
 		

@@ -13,18 +13,18 @@ public class zackersStaff extends universityofZackers
 
 {
 		//initializing string used to store the job title, which is staff specific 
-		    private String jobTitle;
+		    private String jTitle;
 			public zackersStaff(String Fn, String Ln, int Sal, String Job)
 			{
-				super(Fn, Ln, Sal);
+				super();
 				
-				jobTitle = Job;
+				jTitle = Job;
 				
 			}
 			//when the staff class is called it will return the job title 
 			public String toString()
 			{
-				return(super.toString() + " " + jobTitle);
+				return(super.toString() + " " + jTitle);
 				
 			}
 	
