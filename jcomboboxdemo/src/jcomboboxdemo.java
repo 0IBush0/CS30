@@ -137,12 +137,9 @@ public class jcomboboxdemo {
 					school = "Forest Lawn";
 				}
 				
-				
 				disp.setText(Fn + " " + Ln + "is in grade: " 
 				+ grade + ", and goes to: " 
-				+ school);	
-				
-				
+				+ school);
 				
 			}
 		});
