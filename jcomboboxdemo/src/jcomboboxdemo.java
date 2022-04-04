@@ -145,6 +145,6 @@ public class jcomboboxdemo {
 		});
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		btnNewButton.setBounds(669, 118, 136, 197);
-		panel.add(btnNewButton);//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
+		panel.add(btnNewButton);//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
 	}
 }
