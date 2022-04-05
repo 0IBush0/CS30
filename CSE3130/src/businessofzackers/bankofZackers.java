@@ -57,7 +57,22 @@ public class bankofZackers
 
 /* Screen Dump
 
+Welcome to the Bank Of Zackers, To manage your account, please complete the following:
+Please enter your First Name: 
+Zac
+Please enter Your Last Name: 
+Qiu
+Please enter the City you live in: 
+Calgary
+Please enter the State/Province you live in: 
+Alberta
+Please enter the Street Address you live in: 
+Cov Blue Zackers
+Please enter your Postal Code:
+A1A A1A
 
-
+Your Finalized Account Details are Listed Below:Zac Qiu
+Calgary
+Alberta, Cov Blue Zackers  A1A
 
  */
