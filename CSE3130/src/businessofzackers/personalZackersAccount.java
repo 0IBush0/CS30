@@ -15,12 +15,12 @@ public class personalZackersAccount extends zackersAccount
 	public personalZackersAccount(double bal, String fName, String lName, String str, String city, String st, String zip) 
 	{		
 	      super(bal, fName, lName, str, city, st, zip);
-		
+	      
 	      if (bal < 100)
 	      {
 	    	  bal = bal - 2;
-		
-	    	  System.out.println("A Personal Account Requires at Least $100, a $2.00 fee has been charged for not meeting the requirements");
+	    	  System.out.println("Please deposit at Least $100 in your Personal Account,"
+	    	  		+ "a $2.00 fee has been charged for this failed transaction.");//display message if not meeting requirements
 	    	  toString();
 	    	  
 	      }

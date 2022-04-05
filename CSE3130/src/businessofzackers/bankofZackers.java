@@ -17,40 +17,41 @@ public class bankofZackers
 		{
 		try (Scanner input = new Scanner(System.in))
 			{
-				System.out.println("Welcome to Bank Of Gordon's Account Manager");
-				
-				System.out.println("Please Enter your First Name: ");
+				System.out.println("Welcome to Bank Of Gordon's Account Manager");//welcome message
+				//ask for values from user
+				System.out.println("Please enter your First Name: ");
 				String Fn = input.next();
 				
-				System.out.println("Please Enter Your Last Name: ");
+				System.out.println("Please enter Your Last Name: ");
 				String Ln = input.next();
 			
-				System.out.println("\nPlease Enter the Following Account Information");
+				System.out.println("\nPlease enter the Following Account Information");
 				
-				System.out.println("Enter City: ");
+				System.out.println("Please enter the City you live in: ");
 				String C = input.next();
 				
-				System.out.println("Enter State/Province: ");
+				System.out.println("Please enter the State/Province you live in: ");
 				String S = input.next();
 				
-				System.out.println("Enter Street Address (In The Form: ### Address Cordin.): ");
+				System.out.println("Please enter the Street Address you live in: ");
 				String s = input.next();
 				s+= input.nextLine();
 			       
-				System.out.println("Enter Postal Code (In The Form A#A#A#");
+				System.out.println("Please enter your Postal Code:");
 				String P = input.next();
 
 				System.out.print("\nYour Finalized Account Details are Listed Below:");
 				return new zackersCustomer(Fn, Ln, C, S , s, P);
-				
+				//prompt finalized account details
 			}
 		
 		}
+		
 		public static void main(String[] args) 	
 		{
 			zackersCustomer cust;		
 			cust = assign();
-			System.out.println(cust);	
+			System.out.println(cust);
 
 		}
 		

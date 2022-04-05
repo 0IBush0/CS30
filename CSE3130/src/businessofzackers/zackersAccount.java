@@ -20,32 +20,32 @@ public class zackersAccount
 	{
 		balance = bal;
 		cust = new zackersCustomer(fName, lName, stre, city, st, zip);
-
+		//store variables
 	}
 	
 	public double getBalance()
 	{
-	 	return(balance);
+	 	return(balance);//return balance
 
 	}
 
 	public void deposit(double amt)
 	{
-	 	balance += amt;
+	 	balance += amt;//increase upon deposit
 
 	}
 
 	public void withdrawal(double amt)
 	{
-	 	if (amt <= balance)
+	 	if (amt <= balance)//check for balance
 	 	{
-	 		balance -= amt;
+	 		balance -= amt;//decrease upon withdrawn
 
 	 	}
 	 	else
 	 	{
-	 		System.out.println("There's not enough money in account.");
-
+	 		System.out.println("Currently there's not enough money in your account, please try again later.");
+	 		//display when the money is not enough
 	 	}
 
 	}
@@ -55,10 +55,10 @@ public class zackersAccount
 		String accountString;
 		
 		NumberFormat money = NumberFormat.getCurrencyInstance();
-
+		
 		accountString = cust.toString();
-		accountString += "Your Current balance is " + money.format(balance);
-		//return the balance value
+		accountString += "Your current balance is " + money.format(balance);
+		//display balance value
 	 	return(accountString);
 	 	
 	}

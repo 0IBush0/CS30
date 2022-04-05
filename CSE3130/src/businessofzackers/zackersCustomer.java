@@ -15,6 +15,7 @@ public class zackersCustomer
 
 	public zackersCustomer(String fName, String lName, String stre, String c, String s, String z)
 	{
+		//declare variables
 		firstName = fName;
 		lastName = lName;
 		
@@ -24,6 +25,7 @@ public class zackersCustomer
 		zip = z;
 		
 	}
+	
 	public String toString()
 	{
 		String custString;

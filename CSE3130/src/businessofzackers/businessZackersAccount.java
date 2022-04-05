@@ -19,9 +19,10 @@ public class businessZackersAccount extends zackersAccount
 	      if (bal < 500) 
 	      {
 	    	  bal = bal - 10;
-	    	  System.out.println("A busines account requires a minimum balance of $500, a $10.0 fee has been charged for not meeting the requirements");
+	    	  System.out.println("Please deposit at Least $100 in your Business Account,"
+	    	  		+ "a $10.00 fee has been charged for this failed transaction.");//display message if not meeting requirements
 	    	  toString();
-		
+	    	  
 	      }
 	}
 }
