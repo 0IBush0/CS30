@@ -38,7 +38,7 @@ public class bankofZackers
 				System.out.println("Please enter your Postal Code:");
 				String P = input.next();
 
-				System.out.print("\nYour Finalized Account Details are Listed Below:");
+				System.out.print("\nYour account details are as below:");
 				return new zackersCustomer(Fn, Ln, C, S , s, P);
 				//prompt finalized account details
 			}
