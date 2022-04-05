@@ -1,5 +1,5 @@
 /*
-Program: zackersCustomer.java          Last Date of this Revision: April 4,, 2022
+Program: zackersCustomer.java          Last Date of this Revision: April 5, 2022
 Purpose: Customer
 Author: Zac Qiu
 School: CHHS

@@ -1,5 +1,5 @@
 /*
-Program: zackersAccount.java          Last Date of this Revision: April 4, 2022
+Program: zackersAccount.java          Last Date of this Revision: April 5, 2022
 Purpose: Account
 Author: Zac Qiu
 School: CHHS
@@ -58,7 +58,7 @@ public class zackersAccount
 
 		accountString = cust.toString();
 		accountString += "Your Current balance is " + money.format(balance);
-
+		//return the balance value
 	 	return(accountString);
 	 	
 	}
