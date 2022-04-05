@@ -17,7 +17,7 @@ public class bankofZackers
 		{
 		try (Scanner input = new Scanner(System.in))
 			{
-				System.out.println("Welcome to Bank Of Gordon's Account Manager");//welcome message
+				System.out.println("Welcome to the Bank Of Zackers, To manage your account, please complete the following:");//welcome message
 				//ask for values from user
 				System.out.println("Please enter your First Name: ");
 				String Fn = input.next();
