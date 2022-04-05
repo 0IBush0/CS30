@@ -24,8 +24,6 @@ public class bankofZackers
 				
 				System.out.println("Please enter Your Last Name: ");
 				String Ln = input.next();
-			
-				System.out.println("\nPlease enter the Following Account Information");
 				
 				System.out.println("Please enter the City you live in: ");
 				String C = input.next();
