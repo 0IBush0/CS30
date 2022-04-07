@@ -10,11 +10,27 @@ Course: Computer Programming 30
 package zackersvehicle;
 
 
-public class zackersTruck
+public class zackersTruck extends zackersVehicle
 {
+	public zackersTruck(int fECity, int fEHwy, int seating, double cargo)
+	{
+		super(fECity, fEHwy, seating, cargo);
+
+	}
+
+	String cargoContainer()
+	{
+		return null;
+		
+	}
+
+	String description()
+	{
+		return null;
+		
+	}
 	
 }
-
 /* Screen Dump
 
 

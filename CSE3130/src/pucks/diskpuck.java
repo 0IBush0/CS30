@@ -9,10 +9,8 @@ Course: Computer Programming 30
 
 package pucks;
 
-public class diskpuck extends puck//inherit puck
-
+public class diskpuck extends puck
 {
-
 	private double Thickness;
 	
 	   public diskpuck(double r, double t)
@@ -33,10 +31,10 @@ public class diskpuck extends puck//inherit puck
 	  
 	   public double volume()
 	   {
-	   	double v;
+		   double v;
 	   	
-	   	v = super.area();
-	   	return(v);
+		   v = super.area();
+		   return(v);
 	   	
 	   }
 	  
@@ -55,14 +53,16 @@ public class diskpuck extends puck//inherit puck
 	   			return(false);
 	   			
 	   		}
+	   		
 	   }
 	   public String toString()
 	   {
-	   	String diskString;
-	   	diskString = "The Disk Has A Radius Of: " + super.getRadius() + " And Thickness Of " + Thickness + ".";//display text
-	   	return(diskString);
+	   String diskString;
+	   diskString = "The Disk Has A Radius Of: " + super.getRadius() + " And Thickness Of " + Thickness + ".";//display text
+	   return(diskString);
 	   	
 	   }
+	   
 }
 
 /* Screen Dump

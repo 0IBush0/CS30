@@ -15,7 +15,7 @@ public class personalZackersAccount extends zackersAccount
 	public personalZackersAccount(double bal, String fName, String lName, String str, String city, String st, String zip) 
 	{		
 	      super(bal, fName, lName, str, city, st, zip);
-	      
+	      //declare variables
 	      if (bal < 100)
 	      {
 	    	  bal = bal - 2;
