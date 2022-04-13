@@ -9,9 +9,23 @@ Course: Computer Programming 30
 
 package myfiles;
 
+import java.io.*;
 
 public class myfilepart1
 {
+	public static void main(String[] args)
+	{
+		File textFile = new File("c:\\temp\\supplies.txt");
+		if (textFile.exists())
+		{
+			System.out.println("File already exists.");
+		}
+		else
+		{
+			System.out.println("File does not exist.");
+		}
+		
+	}
 	
 }
 
