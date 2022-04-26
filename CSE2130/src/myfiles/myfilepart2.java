@@ -1,5 +1,5 @@
 /*
-Program: myfilepart2.java          Last Date of this Revision: April 25, 2022
+Program: myfilepart2.java          Last Date of this Revision: April 26, 2022
 Purpose: My File P2
 Author: Zac Qiu
 School: CHHS
@@ -15,8 +15,8 @@ import java.util.Scanner;
 
 public class myfilepart2
 {
-	    File textFile = new File("xxx.txt");
-	    {
+	    File textFile = new File("Bread.txt");//file name Bread.txt
+		{
 		Scanner input = new Scanner(System.in);
 
 		try
