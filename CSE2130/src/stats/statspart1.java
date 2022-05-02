@@ -19,13 +19,15 @@ public class statspart1
 		//get File location
 		FileReader in;
 		BufferedReader readFile;
-		String StudentName, Score;
+		String StudentName;
+		
 		double HigScore = 0;//High Score Variable
 		double LowScore = 100;//Low Score Variable
 		double ScorValue = 0;//Score Value Variable
 		double AveScore;//Average Score Variable
 		double TotScore = 0;//Total Score Variable
-		int numScores = 0;
+		String numScores;
+		int Score = 0;
 
 		try
 		{
@@ -34,7 +36,7 @@ public class statspart1
 
 			while((StudentName = readFile.readLine()) != null)
 			{
-				Score = readFile.readLine();
+				numScores = readFile.readLine();
 				System.out.println(StudentName + " " + Score);
 				numScores += 1;
 				
